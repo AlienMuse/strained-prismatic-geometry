@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use or refer to this work, please cite it as below."
+type: dataset
+title: "Strained Prismatic Geometry"
+abstract: "Deformation over the Absolute Base and the abc Conjecture. A monograph in five volumes bound as one, a self-contained research subject of the Grothendieckian Programme: a global substrate over which Spec Z acquires a relative cotangent direction, bad reduction read as strain, an unconditional trace-invariance theorem, a master inequality and an abc inequality over Q proved conditionally on a named ledger of ninety-eight obligations, and the companion package abctk. The abc conjecture remains open; this work does not prove it."
+authors:
+  - family-names: "Liu"
+    given-names: "Vincent"
+    email: "elsevier2012@hotmail.com"
+version: "1.0.0"
+date-released: "2026-10-24"
+doi: "10.5281/zenodo.23610034"
+license: "CC-BY-NC-ND-4.0"
+url: "https://github.com/AlienMuse/strained-prismatic-geometry"
+keywords:
+  - "abc conjecture"
+  - "Szpiro conjecture"
+  - "prismatic cohomology"
+  - "delta-rings"
+  - "q-de Rham cohomology"
+  - "Habiro ring"
+  - "condensed mathematics"
+  - "analytic stacks"
+  - "six-functor formalism"
+  - "categorical trace"
+  - "Arakelov theory"
+  - "adelic curves"
+  - "inter-universal Teichmüller theory"
+  - "formal verification"
+  - "Grothendieckian Programme"
+  - "recursive mathematical discovery"
+  - "AI for mathematics"
+preferred-citation:
+  type: book
+  title: "Strained Prismatic Geometry — Deformation over the Absolute Base and the abc Conjecture"
+  authors:
+    - family-names: "Liu"
+      given-names: "Vincent"
+  year: 2026
+  edition: "Research Architecture Edition 1"
+  collection-title: "WiseMotif Monograph of Mathematical Intelligence, Series 06"
+  publisher:
+    name: "Zenodo"
+  doi: "10.5281/zenodo.23610034"
+  url: "https://doi.org/10.5281/zenodo.23610034"

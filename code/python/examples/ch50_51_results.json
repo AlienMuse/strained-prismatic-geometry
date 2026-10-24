@@ -1,0 +1,374 @@
+{
+  "benchmark": {
+    "radical_sieve": {
+      "last_value": 10,
+      "limit": 100000,
+      "seconds": 0.020544999999401625
+    },
+    "triple_search": {
+      "limit": 5000,
+      "minimum_quality": 1.0,
+      "records_returned": 80,
+      "seconds": 1.291242199993576
+    }
+  },
+  "certificates": {
+    "frey_records": {
+      "de-weger": {
+        "artifact_hash": "64f9a8eb9c0967b7d44336e80ce7d78cb1b00bcc6bfeb945d0eab516f4468013",
+        "assumptions": [
+          "PO-087",
+          "PO-088",
+          "PO-089"
+        ],
+        "curve": {
+          "a1": 0,
+          "a2": 48234254,
+          "a3": 0,
+          "a4": -5836359375,
+          "a6": 0,
+          "conductor": 53130,
+          "discriminant": 1268000790245881826770944000000000000,
+          "minimal_discriminant": 309570505431123492864000000000000
+        },
+        "curve_id": "curve-36b7e1a6e2944cc8171d32aa",
+        "factorisations": {
+          "a": {
+            "11": 2
+          },
+          "b": {
+            "3": 2,
+            "5": 6,
+            "7": 3
+          },
+          "c": {
+            "2": 21,
+            "23": 1
+          }
+        },
+        "finite_trace": {
+          "coefficients": {
+            "11": 3,
+            "2": 33,
+            "23": 1,
+            "3": 3,
+            "5": 11,
+            "7": 5
+          },
+          "conductor": "53130",
+          "enclosure": {
+            "hi": "63.932241640858456254082095667304",
+            "lo": "63.932241640858456254082095667292"
+          },
+          "errors": {
+            "modelling": "unbounded until PO-088 proves that these local logarithms are the finite strain-trace summands",
+            "rounding": "1.2E-29",
+            "truncation": "0"
+          },
+          "minimal_discriminant": "309570505431123492864000000000000"
+        },
+        "local": {
+          "11": {
+            "components": 4,
+            "conductor_exponent": 1,
+            "delta_valuation": 4,
+            "kodaira": "I4",
+            "method": "Tate algorithm with Ogg check"
+          },
+          "2": {
+            "components": 34,
+            "conductor_exponent": 1,
+            "delta_valuation": 34,
+            "kodaira": "I34",
+            "method": "Tate algorithm with Ogg check"
+          },
+          "23": {
+            "components": 2,
+            "conductor_exponent": 1,
+            "delta_valuation": 2,
+            "kodaira": "I2",
+            "method": "Tate algorithm with Ogg check"
+          },
+          "3": {
+            "components": 4,
+            "conductor_exponent": 1,
+            "delta_valuation": 4,
+            "kodaira": "I4",
+            "method": "Tate algorithm with Ogg check"
+          },
+          "5": {
+            "components": 12,
+            "conductor_exponent": 1,
+            "delta_valuation": 12,
+            "kodaira": "I12",
+            "method": "Tate algorithm with Ogg check"
+          },
+          "7": {
+            "components": 6,
+            "conductor_exponent": 1,
+            "delta_valuation": 6,
+            "kodaira": "I6",
+            "method": "Tate algorithm with Ogg check"
+          }
+        },
+        "status": "arithmetic-certified/model-conditional",
+        "triple": {
+          "a": 121,
+          "b": 48234375,
+          "c": 48234496,
+          "quality": {
+            "hi": "1.6259905201086525320057595888992",
+            "lo": "1.6259905201086525320057595888983"
+          },
+          "radical": 53130,
+          "source": "abctk"
+        },
+        "triple_id": "triple-daafae6446bcb01639265d97"
+      },
+      "reyssat": {
+        "artifact_hash": "3d1903d9718a124814764df9760720f90686cb6a260c68e4f2140486c4890e16",
+        "assumptions": [
+          "PO-087",
+          "PO-088",
+          "PO-089"
+        ],
+        "curve": {
+          "a1": 0,
+          "a2": 6436339,
+          "a3": 0,
+          "a4": -12872682,
+          "a6": 0,
+          "conductor": 240672,
+          "discriminant": 109833904946803852249841111616,
+          "minimal_discriminant": 109833904946803852249841111616
+        },
+        "curve_id": "curve-7f09002db5340164aba4a074",
+        "factorisations": {
+          "a": {
+            "2": 1
+          },
+          "b": {
+            "3": 10,
+            "109": 1
+          },
+          "c": {
+            "23": 5
+          }
+        },
+        "finite_trace": {
+          "coefficients": {
+            "109": 1,
+            "2": 1,
+            "23": 9,
+            "3": 19
+          },
+          "conductor": "240672",
+          "enclosure": {
+            "hi": "54.477576490845520363564983561494",
+            "lo": "54.477576490845520363564983561482"
+          },
+          "errors": {
+            "modelling": "unbounded until PO-088 proves that these local logarithms are the finite strain-trace summands",
+            "rounding": "1.2E-29",
+            "truncation": "0"
+          },
+          "minimal_discriminant": "109833904946803852249841111616"
+        },
+        "local": {
+          "109": {
+            "components": 2,
+            "conductor_exponent": 1,
+            "delta_valuation": 2,
+            "kodaira": "I2",
+            "method": "Tate algorithm with Ogg check"
+          },
+          "2": {
+            "components": 2,
+            "conductor_exponent": 5,
+            "delta_valuation": 6,
+            "kodaira": "III",
+            "method": "Tate algorithm with Ogg check"
+          },
+          "23": {
+            "components": 10,
+            "conductor_exponent": 1,
+            "delta_valuation": 10,
+            "kodaira": "I10",
+            "method": "Tate algorithm with Ogg check"
+          },
+          "3": {
+            "components": 20,
+            "conductor_exponent": 1,
+            "delta_valuation": 20,
+            "kodaira": "I20",
+            "method": "Tate algorithm with Ogg check"
+          }
+        },
+        "status": "arithmetic-certified/model-conditional",
+        "triple": {
+          "a": 2,
+          "b": 6436341,
+          "c": 6436343,
+          "quality": {
+            "hi": "1.6299116841270481846308600545359",
+            "lo": "1.6299116841270481846308600545353"
+          },
+          "radical": 15042,
+          "source": "abctk"
+        },
+        "triple_id": "triple-daf9caa796a99302b6309907"
+      },
+      "small": {
+        "artifact_hash": "c9d2641374ed5f9329aa15b47803de2f2bdacd7f69c7d4a0736a0c5959939c96",
+        "assumptions": [
+          "PO-087",
+          "PO-088",
+          "PO-089"
+        ],
+        "curve": {
+          "a1": 0,
+          "a2": 7,
+          "a3": 0,
+          "a4": -8,
+          "a6": 0,
+          "conductor": 48,
+          "discriminant": 82944,
+          "minimal_discriminant": 82944
+        },
+        "curve_id": "curve-a0fd9212662df7b48c66e775",
+        "factorisations": {
+          "a": {},
+          "b": {
+            "2": 3
+          },
+          "c": {
+            "3": 2
+          }
+        },
+        "finite_trace": {
+          "coefficients": {
+            "2": 6,
+            "3": 3
+          },
+          "conductor": "48",
+          "enclosure": {
+            "hi": "7.4547199493640009306891284395173",
+            "lo": "7.4547199493640009306891284395161"
+          },
+          "errors": {
+            "modelling": "unbounded until PO-088 proves that these local logarithms are the finite strain-trace summands",
+            "rounding": "1.2E-30",
+            "truncation": "0"
+          },
+          "minimal_discriminant": "82944"
+        },
+        "local": {
+          "2": {
+            "components": 7,
+            "conductor_exponent": 4,
+            "delta_valuation": 10,
+            "kodaira": "I2*",
+            "method": "Tate algorithm with Ogg check"
+          },
+          "3": {
+            "components": 4,
+            "conductor_exponent": 1,
+            "delta_valuation": 4,
+            "kodaira": "I4",
+            "method": "Tate algorithm with Ogg check"
+          }
+        },
+        "status": "arithmetic-certified/model-conditional",
+        "triple": {
+          "a": 1,
+          "b": 8,
+          "c": 9,
+          "quality": {
+            "hi": "1.2262943855309168262595077230646",
+            "lo": "1.2262943855309168262595077230641"
+          },
+          "radical": 6,
+          "source": "abctk"
+        },
+        "triple_id": "triple-0d8f9171503726ecc084a6b4"
+      }
+    },
+    "interval_newton": {
+      "enclosure": {
+        "hi": "1.414213562373095048801688724209698078570",
+        "lo": "1.414213562373095048801688724209698078569"
+      },
+      "initial": {
+        "hi": "1.5",
+        "lo": "1.4"
+      },
+      "iterations": 8,
+      "radicand": 2,
+      "unique": true
+    },
+    "log_gauge_integral": {
+      "enclosure": {
+        "hi": "0.30693743461652099403787958443903",
+        "lo": "0.30676820923064210114007264298503"
+      },
+      "errors": {
+        "modelling": "unbounded until PO-087 identifies this benchmark with the archimedean strain-trace integrand",
+        "rounding": "3.617E-29",
+        "truncation": "0.00016922538587889289780694141783"
+      },
+      "model": "logarithmic polarised-line gauge integral",
+      "parameter": "1/2",
+      "partial": {
+        "hi": "0.30693743461652099403787958443903",
+        "lo": "0.30676820923064210114007264298503"
+      },
+      "work_units": 4096
+    },
+    "reyssat_slack": {
+      "epsilon_1_10": {
+        "hi": "-5.097009355520765222837562852407",
+        "lo": "-5.097009355520765222837562852413"
+      },
+      "epsilon_2_3": {
+        "hi": "0.353531532664832199293813578287",
+        "lo": "0.353531532664832199293813578279"
+      }
+    },
+    "tate_q_product": {
+      "enclosure": {
+        "hi": "0.42492702709655939939920972693199",
+        "lo": "0.42492702709655939939920948001810"
+      },
+      "errors": {
+        "modelling": "unbounded until PO-087 identifies the q-product metric with the archimedean strain-trace contribution",
+        "rounding": "3.0E-31",
+        "truncation": "2.4691358024691358024691358024692E-25"
+      },
+      "model": "Tate q-product metric benchmark",
+      "parameter": "1/10",
+      "partial": {
+        "hi": "0.42492702709655939939920948001840",
+        "lo": "0.42492702709655939939920948001810"
+      },
+      "work_units": 24
+    }
+  },
+  "database": {
+    "table_count": 8,
+    "tables": [
+      "curves",
+      "factorisations",
+      "gauge_terms",
+      "ledger",
+      "local_data",
+      "reports",
+      "runs",
+      "triples"
+    ]
+  },
+  "generated_utc": "2026-08-04T11:29:49.551311+00:00",
+  "package_version": "1.1.0",
+  "platform": "Windows 11",
+  "python_version": "3.12.10",
+  "source_hash": "f6903ffc7c1bb9f67f823fe135626ebd69ad7699c682ec088fa8365b32b6f527"
+}
